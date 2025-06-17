@@ -6,6 +6,7 @@ SELECT
   CAST(order_total AS FLOAT) AS order_total,
   customer_id,
   prod_number 
-  employee_id
+  employee_id,
+  prod_name,
 FROM {{ source('orders', 'customer_orders') }}
 WHERE order_number IS NOT NULL
