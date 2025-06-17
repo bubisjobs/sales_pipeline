@@ -32,5 +32,9 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   sales_pipeline_final:
     # Config indicated by + and applies to all files under models/example/
-    example:
-      +materialized: view
+    staging:
+      +materialized: view  
+      snowflake_warehouse: 'dbt_wh'  # This will create views for staging models
+    marts:
+      +materialized: table
+      snowflake_warehouse: 'dbt_wh'  # This will create tables for marts model

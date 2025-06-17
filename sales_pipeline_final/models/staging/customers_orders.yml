@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: orders
+    database: SALES_DB
+    schema: dev_schema
+    tables: 
+      - name: customer_orders    
