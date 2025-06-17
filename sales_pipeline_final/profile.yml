@@ -1,0 +1,12 @@
+sales_db:
+  target: dev
+  outputs:
+    type: snowflake
+    account: jvrrwvk-qt99350  # e.g. abcd-xy123 or abcd-xy123.us-east-1
+    user: 
+    password: 
+    role: dbt_role  # optional
+    database: sales_db
+    warehouse: dbt_wh
+    schema: dbt_schema
+    threads: 10

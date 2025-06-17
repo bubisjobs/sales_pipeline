@@ -1,0 +1,216 @@
+[0m22:15:16.002944 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021E8691E710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021E86AF6590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021E86B67250>]}
+[0m22:15:16.018572 [debug] [MainThread]: An error was encountered while trying to send an event
+
+
+============================== 22:15:16.018572 | d10c7252-7592-4181-a8f5-052e5da74561 ==============================
+[0m22:15:16.018572 [info ] [MainThread]: Running with dbt=1.9.4
+[0m22:15:16.018572 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Fatoumatta\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt init', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m22:15:44.410816 [info ] [MainThread]: A project called sales_pipeline_dbt already exists here.
+[0m22:15:44.410816 [debug] [MainThread]: Command `dbt init` succeeded at 22:15:44.410816 after 28.55 seconds
+[0m22:15:44.410816 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021E86B67DD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021E86837F50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021E80617A10>]}
+[0m22:15:44.410816 [debug] [MainThread]: An error was encountered while trying to send an event
+[0m22:15:44.410816 [debug] [MainThread]: Flushing usage events
+[0m22:16:00.199891 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E6DB589F50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E6DB590E90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E6DB5927D0>]}
+[0m22:16:00.215513 [debug] [MainThread]: An error was encountered while trying to send an event
+
+
+============================== 22:16:00.215513 | e7715bf0-0c84-483b-b4b6-4b605eccc141 ==============================
+[0m22:16:00.215513 [info ] [MainThread]: Running with dbt=1.9.4
+[0m22:16:00.215513 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Fatoumatta\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m22:16:04.696478 [debug] [MainThread]: Starter project path: C:\Users\Fatoumatta\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\include\starter_project
+[0m22:16:04.821125 [info ] [MainThread]: 
+Your new dbt project "sales_pipeline" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:16:04.821125 [info ] [MainThread]: Setting up your profile.
+[0m22:19:01.271757 [info ] [MainThread]: Profile sales_pipeline written to C:\Users\Fatoumatta\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m22:19:01.271757 [debug] [MainThread]: Command `dbt init` succeeded at 22:19:01.271757 after 181.23 seconds
+[0m22:19:01.271757 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E6D4FA7A10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E6D4FA7A90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E6D4D326D0>]}
+[0m22:19:01.271757 [debug] [MainThread]: An error was encountered while trying to send an event
+[0m22:19:01.271757 [debug] [MainThread]: Flushing usage events
+[0m22:19:17.039671 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001173106B210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011731044110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000117310443D0>]}
+[0m22:19:17.039671 [debug] [MainThread]: An error was encountered while trying to send an event
+
+
+============================== 22:19:17.039671 | 8d490687-0068-497c-a1c3-896c657bd8c6 ==============================
+[0m22:19:17.039671 [info ] [MainThread]: Running with dbt=1.9.4
+[0m22:19:17.039671 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Fatoumatta\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m22:19:17.090575 [info ] [MainThread]: dbt version: 1.9.4
+[0m22:19:17.090575 [info ] [MainThread]: python version: 3.11.5
+[0m22:19:17.102477 [info ] [MainThread]: python path: C:\Users\Fatoumatta\AppData\Local\Programs\Python\Python311\python.exe
+[0m22:19:17.103775 [info ] [MainThread]: os info: Windows-10-10.0.22631-SP0
+[0m22:19:18.809375 [info ] [MainThread]: Using profiles dir at C:\Users\Fatoumatta\.dbt
+[0m22:19:18.809375 [info ] [MainThread]: Using profiles.yml file at C:\Users\Fatoumatta\.dbt\profiles.yml
+[0m22:19:18.809375 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Fatoumatta\Documents\Canada\Data Engineer\sales_pipeline\dbt_project.yml
+[0m22:19:18.809375 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m22:19:18.821390 [debug] [MainThread]: Command `dbt debug` failed at 22:19:18.821390 after 1.91 seconds
+[0m22:19:18.821390 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011731073110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011730FF5FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011730FF7A10>]}
+[0m22:19:18.821390 [debug] [MainThread]: An error was encountered while trying to send an event
+[0m22:19:18.821390 [debug] [MainThread]: Flushing usage events
+[0m22:25:29.131047 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000123D2754950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000123D27B7E50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000123D278E750>]}
+[0m22:25:29.131047 [debug] [MainThread]: An error was encountered while trying to send an event
+
+
+============================== 22:25:29.131047 | 53d02afb-5e39-456f-9e7e-d98f89e7cc8b ==============================
+[0m22:25:29.131047 [info ] [MainThread]: Running with dbt=1.9.4
+[0m22:25:29.146676 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Fatoumatta\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt debug', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m22:25:29.220189 [info ] [MainThread]: dbt version: 1.9.4
+[0m22:25:29.229389 [info ] [MainThread]: python version: 3.11.5
+[0m22:25:29.236413 [info ] [MainThread]: python path: C:\Users\Fatoumatta\AppData\Local\Programs\Python\Python311\python.exe
+[0m22:25:29.236413 [info ] [MainThread]: os info: Windows-10-10.0.22631-SP0
+[0m22:25:31.957194 [info ] [MainThread]: Using profiles dir at C:\Users\Fatoumatta\.dbt
+[0m22:25:31.957194 [info ] [MainThread]: Using profiles.yml file at C:\Users\Fatoumatta\.dbt\profiles.yml
+[0m22:25:31.957194 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Fatoumatta\Documents\Canada\Data Engineer\sales_pipeline\dbt_project.yml
+[0m22:25:31.972211 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m22:25:31.972211 [debug] [MainThread]: Command `dbt debug` failed at 22:25:31.972211 after 3.05 seconds
+[0m22:25:31.972211 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000123D278FAD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000123D256A610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000123D2843E90>]}
+[0m22:25:31.972211 [debug] [MainThread]: An error was encountered while trying to send an event
+[0m22:25:31.972211 [debug] [MainThread]: Flushing usage events
+[0m22:27:20.797498 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E8D8749D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E8D8B3A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E8D5A7BD0>]}
+[0m22:27:20.813152 [debug] [MainThread]: An error was encountered while trying to send an event
+
+
+============================== 22:27:20.813152 | 49c083e7-939f-400a-a899-63e4ffbd6c38 ==============================
+[0m22:27:20.813152 [info ] [MainThread]: Running with dbt=1.9.4
+[0m22:27:20.813152 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Fatoumatta\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m22:27:20.892842 [info ] [MainThread]: dbt version: 1.9.4
+[0m22:27:20.892842 [info ] [MainThread]: python version: 3.11.5
+[0m22:27:20.892842 [info ] [MainThread]: python path: C:\Users\Fatoumatta\AppData\Local\Programs\Python\Python311\python.exe
+[0m22:27:20.892842 [info ] [MainThread]: os info: Windows-10-10.0.22631-SP0
+[0m22:27:23.545271 [info ] [MainThread]: Using profiles dir at C:\Users\Fatoumatta\.dbt
+[0m22:27:23.545271 [info ] [MainThread]: Using profiles.yml file at C:\Users\Fatoumatta\.dbt\profiles.yml
+[0m22:27:23.545271 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Fatoumatta\Documents\Canada\Data Engineer\sales_pipeline\dbt_project.yml
+[0m22:27:23.589273 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m22:27:23.591809 [debug] [MainThread]: Command `dbt debug` failed at 22:27:23.591809 after 2.96 seconds
+[0m22:27:23.591809 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E8D8B4090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E8D8D6E90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E87227A10>]}
+[0m22:27:23.591809 [debug] [MainThread]: An error was encountered while trying to send an event
+[0m22:27:23.591809 [debug] [MainThread]: Flushing usage events
+[0m22:33:13.977073 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026D69E44290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026D69EA6D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026D69EA6ED0>]}
+[0m22:33:13.977073 [debug] [MainThread]: An error was encountered while trying to send an event
+
+
+============================== 22:33:13.977073 | e55d0b5c-10bf-4fa3-9b2e-6c732a1c25c2 ==============================
+[0m22:33:13.977073 [info ] [MainThread]: Running with dbt=1.9.4
+[0m22:33:13.990106 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Fatoumatta\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt debug --profile dbt_db', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m22:33:14.073820 [info ] [MainThread]: dbt version: 1.9.4
+[0m22:33:14.073820 [info ] [MainThread]: python version: 3.11.5
+[0m22:33:14.073820 [info ] [MainThread]: python path: C:\Users\Fatoumatta\AppData\Local\Programs\Python\Python311\python.exe
+[0m22:33:14.073820 [info ] [MainThread]: os info: Windows-10-10.0.22631-SP0
+[0m22:33:14.081840 [info ] [MainThread]: Using profiles dir at C:\Users\Fatoumatta\.dbt
+[0m22:33:14.092054 [info ] [MainThread]: Using profiles.yml file at C:\Users\Fatoumatta\.dbt\profiles.yml
+[0m22:33:14.105899 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Fatoumatta\Documents\Canada\Data Engineer\sales_pipeline\dbt_project.yml
+[0m22:33:14.110419 [info ] [MainThread]: Configuration:
+[0m22:33:14.110419 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m22:33:14.118839 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m22:33:14.135367 [info ] [MainThread]: Required dependencies:
+[0m22:33:14.167464 [debug] [MainThread]: Executing "git --help"
+[0m22:33:14.271919 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m22:33:14.271919 [debug] [MainThread]: STDERR: "b''"
+[0m22:33:14.271919 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m22:33:14.271919 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m22:33:14.271919 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m22:33:14.302239 [info ] [MainThread]: Profile loading failed for the following reason:
+Runtime Error
+  Could not find profile named 'dbt_db'
+
+
+[0m22:33:14.308676 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Fatoumatta\Documents\Canada\Data Engineer\sales_pipeline\dbt_project.yml> not found
+
+[0m22:33:14.308676 [debug] [MainThread]: Command `dbt debug` failed at 22:33:14.308676 after 0.51 seconds
+[0m22:33:14.308676 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026D63652810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026D69E84650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026D69E84390>]}
+[0m22:33:14.308676 [debug] [MainThread]: An error was encountered while trying to send an event
+[0m22:33:14.308676 [debug] [MainThread]: Flushing usage events
+[0m22:33:39.916258 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE3FFD6810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE3FFB1190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE3FFB3E90>]}
+[0m22:33:39.931878 [debug] [MainThread]: An error was encountered while trying to send an event
+
+
+============================== 22:33:39.931878 | 10a6f355-f3bc-4b7b-8426-707be45dfbc9 ==============================
+[0m22:33:39.931878 [info ] [MainThread]: Running with dbt=1.9.4
+[0m22:33:39.931878 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Fatoumatta\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt debug --profile sales_db', 'send_anonymous_usage_stats': 'True'}
+[0m22:33:40.011442 [info ] [MainThread]: dbt version: 1.9.4
+[0m22:33:40.011442 [info ] [MainThread]: python version: 3.11.5
+[0m22:33:40.019464 [info ] [MainThread]: python path: C:\Users\Fatoumatta\AppData\Local\Programs\Python\Python311\python.exe
+[0m22:33:40.040211 [info ] [MainThread]: os info: Windows-10-10.0.22631-SP0
+[0m22:33:40.062794 [info ] [MainThread]: Using profiles dir at C:\Users\Fatoumatta\.dbt
+[0m22:33:40.062794 [info ] [MainThread]: Using profiles.yml file at C:\Users\Fatoumatta\.dbt\profiles.yml
+[0m22:33:40.069158 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Fatoumatta\Documents\Canada\Data Engineer\sales_pipeline\dbt_project.yml
+[0m22:33:40.126613 [info ] [MainThread]: Configuration:
+[0m22:33:40.126613 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m22:33:40.126613 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m22:33:40.126613 [info ] [MainThread]: Required dependencies:
+[0m22:33:40.141328 [debug] [MainThread]: Executing "git --help"
+[0m22:33:40.237475 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m22:33:40.237475 [debug] [MainThread]: STDERR: "b''"
+[0m22:33:40.237475 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m22:33:40.237475 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m22:33:40.253102 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m22:33:40.253102 [info ] [MainThread]: Profile loading failed for the following reason:
+Runtime Error
+  Could not find profile named 'sales_db'
+
+
+[0m22:33:40.262264 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Fatoumatta\Documents\Canada\Data Engineer\sales_pipeline\dbt_project.yml> not found
+
+[0m22:33:40.271018 [debug] [MainThread]: Command `dbt debug` failed at 22:33:40.271018 after 0.53 seconds
+[0m22:33:40.279041 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE3FFDEC10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE39752810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE39752450>]}
+[0m22:33:40.279041 [debug] [MainThread]: An error was encountered while trying to send an event
+[0m22:33:40.279041 [debug] [MainThread]: Flushing usage events
+[0m22:38:34.995418 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000176C60241D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000176C60625D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000176C6064490>]}
+[0m22:38:35.011041 [debug] [MainThread]: An error was encountered while trying to send an event
+
+
+============================== 22:38:35.011041 | 8e4c5921-7a4a-4dd1-87b0-df0cffd57ce2 ==============================
+[0m22:38:35.011041 [info ] [MainThread]: Running with dbt=1.9.4
+[0m22:38:35.011041 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Fatoumatta\\.dbt', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt debug --profile sales_db', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m22:38:35.085848 [info ] [MainThread]: dbt version: 1.9.4
+[0m22:38:35.085848 [info ] [MainThread]: python version: 3.11.5
+[0m22:38:35.085848 [info ] [MainThread]: python path: C:\Users\Fatoumatta\AppData\Local\Programs\Python\Python311\python.exe
+[0m22:38:35.090866 [info ] [MainThread]: os info: Windows-10-10.0.22631-SP0
+[0m22:38:35.098942 [info ] [MainThread]: Using profiles dir at C:\Users\Fatoumatta\.dbt
+[0m22:38:35.104997 [info ] [MainThread]: Using profiles.yml file at C:\Users\Fatoumatta\.dbt\profiles.yml
+[0m22:38:35.120520 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Fatoumatta\Documents\Canada\Data Engineer\sales_pipeline\dbt_project.yml
+[0m22:38:35.146787 [info ] [MainThread]: Configuration:
+[0m22:38:35.153308 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m22:38:35.169294 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m22:38:35.192090 [info ] [MainThread]: Required dependencies:
+[0m22:38:35.194140 [debug] [MainThread]: Executing "git --help"
+[0m22:38:35.401600 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m22:38:35.401600 [debug] [MainThread]: STDERR: "b''"
+[0m22:38:35.401600 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m22:38:35.409912 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m22:38:35.419691 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m22:38:35.419691 [info ] [MainThread]: Profile loading failed for the following reason:
+Runtime Error
+  Could not find profile named 'sales_db'
+
+
+[0m22:38:35.431983 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Fatoumatta\Documents\Canada\Data Engineer\sales_pipeline\dbt_project.yml> not found
+
+[0m22:38:35.443293 [debug] [MainThread]: Command `dbt debug` failed at 22:38:35.443293 after 0.62 seconds
+[0m22:38:35.447602 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000176C5E3EC90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000176BF762810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000176C5D57E90>]}
+[0m22:38:35.447602 [debug] [MainThread]: An error was encountered while trying to send an event
+[0m22:38:35.447602 [debug] [MainThread]: Flushing usage events
